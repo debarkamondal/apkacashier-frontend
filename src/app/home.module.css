@@ -1,3 +1,9 @@
 .meter::-webkit-meter-bar {
-    background: #fd713a
+    background: #ffbe98
+}
+
+.meter::-webkit-meter-optimum-value,
+.meter::-webkit-meter-suboptimum-value,
+.meter::-webkit-meter-even-less-good-value {
+    background: #fff4ed;
 }
